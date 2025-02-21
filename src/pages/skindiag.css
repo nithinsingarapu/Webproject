@@ -1,0 +1,98 @@
+/* SkinDiagnosis.css */
+
+.container {
+  margin: 0px;
+  padding : 0px;
+  width : 100vw;
+  height : 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: #f8f9fb;
+    font-family: Arial, sans-serif;
+  }
+  
+  .card {
+    width: 100%;
+    height : 80%;
+    max-width: 600px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .left-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card-1{
+    width: 20vw;
+    height : 55vh;
+  }
+.card-3{
+  margin-top: 10px;
+  width : 20vw;
+  height : 20vh;
+  }
+  
+  
+  .upload-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .upload-box input {
+    display: none;
+  }
+  
+  .icon {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .info-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  .chatbox{
+    border: solid;
+    display: flex;
+    
+  }
+  
+  .primary-button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .primary-button:hover {
+    background: #0056b3;
+  }
+  
+  .captured-image {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
